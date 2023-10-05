@@ -4,9 +4,9 @@ import org.iesvdm.clases.Matriz;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class testMatriz {
+public class MatrizTest {
     @Test
-    public void testMatriz() {
+    public void MatrizTest() {
         Matriz<Integer> matriz = new Matriz<>(3, 3);
         matriz.set(0, 0, 1);
         matriz.set(0, 1, 2);

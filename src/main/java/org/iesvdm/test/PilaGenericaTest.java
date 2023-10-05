@@ -1,11 +1,10 @@
 package org.iesvdm.test;
 
 import org.iesvdm.clases.PilaGenerica;
-import org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class testPila {
+public class PilaGenericaTest {
     @Test
     public void testVacía() {
 
