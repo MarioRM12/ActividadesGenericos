@@ -26,6 +26,9 @@ public class testPila {
         //Creamos la pila vacía
         PilaGenerica<Integer> pila = new PilaGenerica<>();
 
+        //Comprobamos que esta vacía
+        assertTrue(pila.estaVacia());
+
         //Añadimos un elemento a la pila;
         pila.aniadir(2);
 
@@ -60,11 +63,13 @@ public class testPila {
         //Creamos la pila vacía
         PilaGenerica<Integer> pila = new PilaGenerica<>();
 
-        //Añadimos un numero concreto de elementos a la pila;
-        pila.aniadir(2);
+        //Añadimos numeros a la pila;
+        pila.aniadir(2233);
+        pila.aniadir(3);
+        pila.aniadir(4);
 
-        //Comprobamos que esta vacía
-        assertTrue(pila.primero().equals(2));
+        //Comprobamos que esta al menos el primero y que se ha añadido correctamente
+        assertTrue(pila.primero().equals(2233));
 
     }
 
